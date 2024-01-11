@@ -25,37 +25,37 @@ body{
   z-index: 3;
   overflow: hidden;
 }
-.product-card .logo-cart{
+.product-card .campus-cart{
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
-.product-card .logo-cart img{
+.product-card .campus-cart img{
   height: 60px;
   width: 60px;
   object-fit: cover;
 }
-.product-card .logo-cart i{
+.product-card .campus-cart i{
   font-size: 27px;
   color: #707070;
   cursor: pointer;
   transition: color 0.3s ease;
 }
-.product-card .logo-cart i:hover{
+.product-card .campus-cart i:hover{
   color: #333;
 }
 .product-card .main-images{
   position: relative;
-  height: 210px;
+  height: 190px;
 }
 .product-card .main-images img{
   position: absolute;
-  height: 300px;
-  width: 300px;
-  object-fit: cover;
-  transform: rotate(18deg);
+  height: 310px;
+  width: 240px;
+  object-fit: fill;
+  transform: rotate(-15deg);
   left: 12px;
-  top: -40px;
+  top: -60px;
   z-index: -1;
   opacity: 0;
   transition: opacity 0.5s ease;
@@ -100,26 +100,26 @@ body{
 .color-option  .circles .circle{
   height: 18px;
   width: 18px;
-  background: #0071C7;
+  background: #35bee7;
   border-radius: 50%;
   margin: 0 4px;
   cursor: pointer;
   transition: all 0.4s ease;
 }
-.color-option  .circles .circle.blue.active{
-  box-shadow: 0 0 0 2px #fff,0 0 0 4px #0071C7;
+.color-option  .circles .circle.image3.active{
+  box-shadow: 0 0 0 2px #fff,0 0 0 4px #35bee7;
 }
-.color-option  .circles .circle.pink{
-  background: #FA1795;
+.color-option  .circles .circle.image2{
+  background: #c96b9e;
 }
-.color-option  .circles .circle.pink.active{
-  box-shadow: 0 0 0 2px #fff,0 0 0 4px #FA1795;
+.color-option  .circles .circle.image2.active{
+  box-shadow: 0 0 0 2px #fff,0 0 0 4px #c96b9e;
 }
-.color-option  .circles .circle.yellow{
-  background: #F5DA00;
+.color-option  .circles .circle.image1{
+  background: #ff8c2f;
 }
-.color-option  .circles .circle.yellow.active{
-  box-shadow: 0 0 0 2px #fff,0 0 0 4px #F5DA00;
+.color-option  .circles .circle.image1.active{
+  box-shadow: 0 0 0 2px #fff,0 0 0 4px #ff8c2f;
 }
 .color-price .price{
   display: flex;
